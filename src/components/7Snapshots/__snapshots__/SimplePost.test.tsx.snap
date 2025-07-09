@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Simple post snapshot tests initial test 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="post-container"
+  >
+    <h2>
+      Alexei:
+    </h2>
+    <p>
+      Simple content
+    </p>
+  </div>
+</DocumentFragment>
+`;
