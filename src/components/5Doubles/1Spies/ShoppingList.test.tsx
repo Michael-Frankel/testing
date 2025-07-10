@@ -8,7 +8,7 @@ const ingredients = ['Apples', 'Bananas', 'meat'];
 describe('shop list test suit', () => {
     it('shop list - local spy', async () => {
         const someFunc = (item: string) => {
-            // console.log(`some func selected item ${item}`);
+            console.log(`some func selected item ${item}`);
         }
 
         const someFuncWrapper = {
